@@ -1,0 +1,29 @@
+.practice{
+    background-color: black;
+    color: white;
+    height:100px
+}
+.logo{
+    background-color: darkgoldenrod;
+}
+button{
+    background-color:darkgoldenrod ;
+    color:white;
+}
+*{
+    text-decoration: none;
+}
+a{
+    margin:100px;
+    color: white;
+}
+#content{
+    height: 100px;
+    width: 80px;
+    border: solid black 2px;
+    background-color: brown;
+    display: inline-block;
+}
+#contentbox2{
+    background-color: blueviolet;
+}
