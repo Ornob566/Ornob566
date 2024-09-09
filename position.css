@@ -1,0 +1,32 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:blue;
+    border:solid black;
+    display: inline-block;
+}
+.bc{
+    background-color: blueviolet;
+    bottom:70px;
+    position: relative;
+}
+.ab{
+    background-color:black;
+    color:white;
+    top:0px;
+    left:20px;
+    position:fixed;
+}
+.cd{
+    background-color:pink;
+    position:sticky;
+    right:20px;
+    top:0px;
+}
+.de{
+    background-color:yellow;
+    position:fixed;
+    bottom:0px;
+    right:1px;
+    width:100%;
+}
