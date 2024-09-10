@@ -1,0 +1,32 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: aquamarine;
+    border:solid black 2px;
+    display:inline-block;
+}
+.ab{
+    background-image:url("duck photo.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.bc{
+    background-image:url("deer photo.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.cd{
+    background-image:url("kathbirali photo.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    left: 10px;
+    z-index: 0;
+}
+.de{
+    background-image:url("tiger photo.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    z-index: 3;
+}
