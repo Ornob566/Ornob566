@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width: 100px;
+    border:solid black 2px;
+    display: inline-block;
+}
+.contentbox{
+    display: flex;
+    height:500px;
+    width:800px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: unset;
+    align-items: center;
+    flex-grow: inherit;
+}
+.ab{
+    background-color: blue;
+}
+.bc{
+    background-color: aqua;
+}
+.cd{
+    background-color: blueviolet;
+    height: 250px;
+    width: 500px;
+}
+.de{
+    background-color:brown;
+}
+.ef{
+    background-color: red;
+}
