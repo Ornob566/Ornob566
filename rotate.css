@@ -1,0 +1,25 @@
+div{
+    height: 500px;
+    width: 600px;
+    background-color: aqua;
+    border: solid black 2px;
+    text-align: center;
+    color: white;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    rotate: 60deg;
+    position:absolute;
+    left: 200px;
+    top: 50px;
+    border-radius: 100%;
+    padding-top: 20px;
+}
+div:active{
+    background-color: palevioletred;
+}
+div:hover{
+    background-color: yellow;
+    color: black;
+    font-size: 40px;
+    font-family: fantasy;
+}
