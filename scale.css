@@ -1,0 +1,17 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:pink;
+    border:2px solid black;
+    transition-delay:1s;
+    margin: 50px;
+    margin-left:150px;
+    padding:20px;
+}
+div:hover{
+    transform:scalex(2);
+    background-color: black;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
