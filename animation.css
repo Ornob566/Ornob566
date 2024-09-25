@@ -1,0 +1,25 @@
+div{
+    height: 200px;
+    width:100px;
+    background-color: blue;
+    border:2px solid black;
+    color:white;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left:100px;
+    animation-name: ab;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+
+
+}
+@keyframes ab{
+    from{background-color: blue;}
+    from{left: 0px;}
+    to{background-color: red;}
+    to{left:800px;}
+}
