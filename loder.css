@@ -1,0 +1,29 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border: 20px solid black;
+    border-radius: 100%;
+    border-top: 20px solid red;
+    position: absolute;
+    top:200px;
+    left:300px;
+    animation-name: bc;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes bc{
+from{
+    transform:rotate(0deg);
+}
+to{
+    transform:rotate(360deg);
+}
+}
+h1{
+    color:rgb(112, 16, 164);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}   
